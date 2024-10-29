@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   # cron job every 2 hours
   schedule:
-   - cron: '0 */2 * * *'
+   - cron: '*/15 * * * *'
   
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
